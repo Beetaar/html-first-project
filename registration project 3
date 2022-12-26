@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3mly3</title>
+
+    <style>
+
+body    {
+        background-image: url(file:///C:/Users/Peter/Desktop/Picture1.png);
+        background-color: rgb(27, 27, 27);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }        
+
+p{
+                text-align: center;
+                padding-bottom: 10px;
+                font-size: 17   px;
+                color: rgb(235, 235, 235);
+            }
+
+h1{
+            text-align: center;
+            padding-top: 20px;
+            font-family: monospace;
+            font-size: 30;
+            color:rgb(235, 235, 235);
+        }
+
+        *{box-sizing:border-box;}
+        .yaya{
+            float :left;
+            width: 200px;
+            padding: 8px;
+        }
+
+        .pop{
+            background-color: orange;
+            text-align: center;
+            color: white;
+        }
+
+        .price{
+            background-color: white;
+            border: 1px;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            text-align: center;
+        }
+            
+        .price:hover{
+            box-shadow: 0 8px 12px rgb(255, 94, 0);
+        }
+        
+        .price li {
+            border-bottom: 1px solid #eee;
+            padding: 20px;
+            text-align: center;
+        }
+
+ .price .grey 
+    {
+    background-color: #eee;
+    font-size: 20px;
+   }
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 2px;
+  margin-left: auto;
+  text-align: center;   
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0 2px 5px black;
+}
+
+h1{
+    text-align: center;
+}
+
+    .oo{text-align: end;
+    padding-top: 35px;
+    margin-top: 23px; 
+    color: white;
+}
+    
+    </style>
+
+</head>
+
+    <body>
+
+        <h1>
+            <u>modern academy registration
+        </h1> 
+          
+        <p>
+            select the degree you want.
+        </p>
+        
+    <div class="yaya">    
+    <ul class="price">
+        <li class="pop">Management Information System</li>
+        <li class="grey">20000 pound / Year</li>
+        <li>6 subjects / semester</li>
+        <li>2 semester / Year</li>
+        <li>GPA system</li>
+        <li class="grey"> <a href="#" class="button">register</a></li>
+    </ul>
+    </div>
+    
+    <div class="yaya">
+    <ul class="price">
+        <li class="pop">Computer Science</li>
+        <li class="grey">23000 pound / Year</li>
+        <li> 6 subjects / Year</li>
+        <li>2 semester / Year</li>
+        <li>GPA system </li>
+        <li class="grey"> <a href="#" class="button">register</a></li>
+    </ul>
+    </div>
+
+    <div class="yaya">
+    <ul class="price">
+        <li class="pop">Accounting</li>
+        <li class="grey">21000 pound / Year</li>
+        <li>6 subjects / semester</li>
+        <li>2 semester / Year</li>
+        <li>GPA system</li>
+        <li class="grey"> <a href="#" class="button">register</a></li>
+    </ul>
+    </div>
+    
+    <div class="yaya">
+    <ul class="price">
+        <li class="pop">Management</li>
+        <li class="grey">22000 pound / Year</li>
+        <li>6 subjects / semester</li>
+        <li>2 semester / Year</li>
+        <li>GPA system</li>
+        <li class="grey"> <a href="#" class="button">register</a></li>
+    </ul>
+    </div>
+    
+    <div class="yaya">
+    <ul class="price">
+        <li class="pop">Economics</li>
+        <li class="grey">23000 pound / Year</li>
+        <li>6 subjects / semester</li>
+        <li>2 semester / Year</li>
+        <li>GPA system</li>
+        <li class="grey"> <a href="#" class="button">register</a></li>
+    </ul>
+    </div>
+    
+    <div class="yaya">
+    <ul class="price">
+        <li class="pop">Basic Science</li>
+        <li class="grey">25000 pound / Year</li>
+        <li>6 subjects / semester</li>
+        <li>2 semester / Year</li>
+        <li>GPA system</li>
+        <li class="grey"> <a href="#" class="button">register</a></li>
+    </ul>
+    </div>
+</body> 
+</html>
